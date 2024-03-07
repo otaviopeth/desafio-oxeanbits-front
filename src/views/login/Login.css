@@ -1,0 +1,90 @@
+.container-login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  font-size: 1.3rem;
+  }
+  
+  .container-login h1 {
+    margin-bottom: 5rem;
+  }
+  
+  
+  .form-login{
+  
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  align-items: center;
+  padding: 5em 2em;
+  border-radius: 0.30em;
+  background-color: #344b81;
+  border-top-left-radius: 8em;
+  
+  }
+
+  .btn-login{
+    background-image: linear-gradient(to right top, #0f1626, #0f1d38, #0e234b, #0f295e, #132f71);
+    color: white;
+    padding: 1em 3em;
+    border-radius: 3em;
+    border: 2px solid black;
+    
+  }
+
+  
+  .btn-login:hover { font-weight: bold; text-decoration: none; background-color: #4a77d4; background-position: 0 -15px; -webkit-transition: background-position 0.1s linear; -moz-transition: background-position 0.1s linear; -ms-transition: background-position 0.1s linear; -o-transition: background-position 0.1s linear; transition: background-position 0.1s linear; }
+  
+  
+  .ipt-group {
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+  }
+  
+  
+  .ipt-login {
+    border: none;
+    padding: 0.5em;
+    width: 25vw;
+    font-size: 1rem;
+    background-color: #2B3238;
+    color: white;
+  }
+  
+  
+  #icon-user{
+    background-color: #2B3238;
+    font-size: 1em;
+    padding: 0.8em;
+  }
+  
+  #icon-lock{
+    background-color: #2B3238;
+    font-size: 1em;
+    padding: 0.8em;
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+    .container-login{
+      font-size: 0.8rem;
+    }
+    .ipt-login{
+      width: 75vw;
+      font-size: 0.75em;
+    }
+  }
+  
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    .container-login{
+      font-size: 1rem;
+    }
+    .ipt-login{
+      width: 60vw;
+      font-size: 0.8em;
+    }
+  }
+  

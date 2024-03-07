@@ -1,0 +1,70 @@
+.container-reg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  font-size: 1.3rem;
+  }
+  
+  .container-reg h1 {
+    margin-bottom: 5rem;
+  }
+  
+  
+  .form-reg{
+  
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  align-items: center;
+  padding: 5em 2em;
+  border-radius: 0.30em;
+  background-color: #344b81;
+  border-top-left-radius: 8em;
+  
+  
+  }
+  
+  .btn-reg{
+    background-image: linear-gradient(to right top, #4ed840, #52dc5c, #5adf74, #64e28a, #71e49d, #73e7a0, #75eaa4, #77eda7, #6ef19b, #66f58d, #61f87e, #5ffb6c);
+    color: white;
+    padding: 1em 3em;
+    border-radius: 3em;
+    border: 2px solid black;
+  
+  }
+  .btn-reg:hover { font-weight: bold; text-decoration: none; background-color: #50C878; background-position: 0 -15px; -webkit-transition: background-position 0.1s linear; -moz-transition: background-position 0.1s linear; -ms-transition: background-position 0.1s linear; -o-transition: background-position 0.1s linear; transition: background-position 0.1s linear; }
+  
+  .ipt-reg {
+    border: none;
+    padding: 0.5em;
+    width: 25vw;
+    font-size: 1em;
+    background-color: #2B3238;
+    color: white;
+    
+  }
+  
+
+  
+  @media screen and (max-width: 480px) {
+    .container-reg{
+      font-size: 0.8rem;
+    }
+    .ipt-reg{
+      width: 75vw;
+      font-size: 0.75em;
+    }
+  }
+  
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    .container-reg{
+      font-size: 1rem;
+    }
+    .ipt-reg{
+      width: 60vw;
+      font-size: 0.8em;
+    }
+  }
+  

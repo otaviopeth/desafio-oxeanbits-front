@@ -1,0 +1,47 @@
+.container-movie{
+  
+  width: 25vw;
+  text-align: center;
+  padding: 2em 0;
+  margin: 0 auto;
+  border-top: 5px solid #3a4a8a;
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  font-size: 1.3rem;
+}
+
+.form-movie{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+
+}
+
+.ipt-movie{
+  font-size: 1.2rem;
+  width: 80%;
+}
+
+.btn-movie{
+  background-color: #3a4a8a;
+  padding: 2px;
+  color: white;
+  font-size: 1rem;
+  margin-top: 0.5em;
+}
+
+@media screen and (max-width: 480px) {
+  .container-movie{
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .container-movie{
+    width: 85%;
+  }
+}
+

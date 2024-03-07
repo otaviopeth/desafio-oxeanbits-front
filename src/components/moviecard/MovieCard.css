@@ -1,0 +1,35 @@
+.movie-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2em;
+  font-size: 1.3rem;
+  width: 250px;
+  height:250px;
+  color: white;
+  background-color: black;
+}
+
+.movie-info{
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+#btn-score{
+  background-color: #3a4a8a;
+  padding: 2px;
+  color: white;
+}
+
+
+#mtitle{
+  font-weight: bold;
+}
+
+#mdirector{
+  font-size: 1rem;
+}
