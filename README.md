@@ -19,5 +19,5 @@ VITE_REACT_APP_BACKEND_URL=http://localhost:8000
 
 O projeto não ficou completo, é necessário as seguintes melhorias:
 
-- O front em geral está responsivo, mas o componente KendoReact Grid da tela filmes não está mobile friendly.
+- O front em geral está responsivo, mas o componente KendoReact Grid da tela filmes não está totalmente _mobile friendly_.
 - Criação de testes unitários.
