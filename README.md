@@ -14,6 +14,10 @@ Após a instalação das dependências, adicionar arquivo .env à pasta raiz do 
 ```
 VITE_REACT_APP_BACKEND_URL=http://localhost:8000
 ```
+Para executar:
+```
+npm run dev
+```
 
 ### Ajustes e melhorias
 
